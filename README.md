@@ -2,7 +2,7 @@
 
 Imgur Album: https://imgur.com/gallery/aOrw7Yx
 
-Inspiration and code guidance taken from: https://www.youtube.com/watch?v=emS56uT_-zQ
+Inspiration and some code borrowed from: https://www.youtube.com/watch?v=emS56uT_-zQ
 
 Bought a exercise bike off Amazon and like most, the display that it comes with is pretty underwhelming. I wanted something that showed some different stats as well as the current resistance and some kind of total output for the workout so I could compare them to previous workouts. I also wanted an auto-pause since I frequently start a ride and forget something like a water bottle or towel. 
 
