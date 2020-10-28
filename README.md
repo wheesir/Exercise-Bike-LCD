@@ -8,7 +8,7 @@ Bought a exercise bike off Amazon and like most, the display that it comes with 
 
 The RPM sensor that was already on the bike (I think either a hall effect or reed switch) connected with a 3.5mm headphone jack to the original display. Hooked that to a digital interrupt pin on the Arduino. For the resistance, I mounted a slide potentiometer to the frame and attached the slider to the magnetic piece that moves up and down when you turn the resistance knob. It had a convenient hole in it already which the nub of the slider fit perfectly into. Added some superglue just to ensure a tight fit and remove any wiggle. Also attached this to an Arduino analog input pin through a 3.5mm headphone jack which makes for no permanent connections in case I want to change either the bike or LCD in the future.
 
-The info on the readout is:
+The info on the LCD shows:
 1: Current "power" 0-100 with bar graph. Displays up to 99 since I didn't want to use an extra space for the 3rd digit that I'll never see!
 2: Average power for this ride/total power & current RPM. Used the x-bar for average and sigma for total to save space on the LCD. Didn't want it getting to cluttered.
 3:Average MPH this ride & current MPH. Speed is calculated from the flywheel circumference and time between revolutions, not the pedal RPM so it probably shows higher than what you'd be doing on an actual bike. I think this is how most exercise bikes report speed though.
